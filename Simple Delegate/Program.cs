@@ -9,8 +9,10 @@ namespace Simple_Delegate
         static void Main(string[] args)
         {
             SimpleMath simpleMath = new();
-            BinaryOp binaryOp = new BinaryOp(simpleMath.Add);
+            BinaryOp binaryOp = new(simpleMath.Add);
             binaryOp += simpleMath.Subtract;
+            binaryOp -= simpleMath.Add;
+            //binaryOp += simpleMath.SquareNumber;
 
             DisplayDelegateInfo(binaryOp);
             int result = binaryOp(100, 10);
