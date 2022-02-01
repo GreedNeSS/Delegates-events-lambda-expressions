@@ -10,8 +10,15 @@ namespace Simple_Delegate
         {
             SimpleMath simpleMath = new();
             BinaryOp binaryOp = new(simpleMath.Add);
-            binaryOp += simpleMath.Subtract;
-            binaryOp -= simpleMath.Add;
+            //binaryOp += simpleMath.Subtract;
+            binaryOp = (BinaryOp)Delegate.Combine(binaryOp, (BinaryOp)simpleMath.Subtract);
+            //binaryOp -= simpleMath.Add;
+            binaryOp = (BinaryOp) Delegate.Remove(binaryOp,(BinaryOp) simpleMath.Add);
+            binaryOp += (int a, int b) => a * b;
+            binaryOp += delegate (int x, int y)
+            {
+                return x / y;
+            };
             //binaryOp += simpleMath.SquareNumber;
 
             DisplayDelegateInfo(binaryOp);
