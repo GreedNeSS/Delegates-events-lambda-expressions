@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarDelegate", "CarDelegate\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericDelegate", "GenericDelegate\GenericDelegate.csproj", "{C6A84864-72EB-414C-A493-614ABE680514}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Action and Func Delegates", "Action and Func Delegates\Action and Func Delegates.csproj", "{B1963EC6-53DD-4739-B638-D05E3B2CD261}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Action and Func Delegates", "Action and Func Delegates\Action and Func Delegates.csproj", "{B1963EC6-53DD-4739-B638-D05E3B2CD261}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{6D79D992-B1CC-4774-B715-103CF2211384}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Events", "Events\Events.csproj", "{6D79D992-B1CC-4774-B715-103CF2211384}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender and EventArgs", "Sender and EventArgs\Sender and EventArgs.csproj", "{9BFBA897-E098-4C84-AF22-DB2EB259AA05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sender and EventArgs", "Sender and EventArgs\Sender and EventArgs.csproj", "{9BFBA897-E098-4C84-AF22-DB2EB259AA05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHandler", "EventHandler\EventHandler.csproj", "{D3661812-EB71-44A0-A68A-93D4EDB1D4BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{9BFBA897-E098-4C84-AF22-DB2EB259AA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BFBA897-E098-4C84-AF22-DB2EB259AA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BFBA897-E098-4C84-AF22-DB2EB259AA05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3661812-EB71-44A0-A68A-93D4EDB1D4BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3661812-EB71-44A0-A68A-93D4EDB1D4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3661812-EB71-44A0-A68A-93D4EDB1D4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3661812-EB71-44A0-A68A-93D4EDB1D4BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
