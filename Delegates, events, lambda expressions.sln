@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sender and EventArgs", "Sen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHandler", "EventHandler\EventHandler.csproj", "{D3661812-EB71-44A0-A68A-93D4EDB1D4BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousMethods", "AnonymousMethods\AnonymousMethods.csproj", "{C14B9B55-D732-4EFD-8F14-4D21C85BBBD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{D3661812-EB71-44A0-A68A-93D4EDB1D4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3661812-EB71-44A0-A68A-93D4EDB1D4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3661812-EB71-44A0-A68A-93D4EDB1D4BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C14B9B55-D732-4EFD-8F14-4D21C85BBBD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C14B9B55-D732-4EFD-8F14-4D21C85BBBD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C14B9B55-D732-4EFD-8F14-4D21C85BBBD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C14B9B55-D732-4EFD-8F14-4D21C85BBBD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
